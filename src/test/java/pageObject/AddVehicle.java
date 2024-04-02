@@ -34,6 +34,10 @@ public class AddVehicle extends Androidactions {
 		
 		addSEVehicle.click();
 	    addVehicle();
+	}
+	
+	public void allowDevicePermissions()
+	{
 	    allowAppPermission();
 	}
 	

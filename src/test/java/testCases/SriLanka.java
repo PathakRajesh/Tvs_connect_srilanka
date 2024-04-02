@@ -48,7 +48,9 @@ public class SriLanka extends BaseClass {
    {
 	 AddVehicle addvehicle=new AddVehicle(driver);
 	 addvehicle.addStandardEdition(); 
+	 addvehicle.allowDevicePermissions();
     }
+     
      @Test(priority=5)
      public void SerideDetails()
      {

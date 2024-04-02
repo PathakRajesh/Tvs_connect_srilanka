@@ -22,6 +22,8 @@ public class BaseClass {
 static public AndroidDriver driver;
 public Properties p;
 public AppiumDriverLocalService service;
+
+
 	
 	
 	@BeforeClass
@@ -47,6 +49,7 @@ public AppiumDriverLocalService service;
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}	
 		
+	
 	
 	
 	public String randomeString()
